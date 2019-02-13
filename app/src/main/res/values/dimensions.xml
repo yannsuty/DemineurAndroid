@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textmenu">16sp</dimen>
+    <dimen name="configmenu">50dp</dimen>
+    <dimen name="moinsplusbouton">75dp</dimen>
+    <dimen name="separation">20dp</dimen>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:layout_height="@dimen/separation"/>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bombe"
+                android:textSize="@dimen/textmenu"/>
+            <EditText
+                android:layout_width="@dimen/configmenu"
+                android:layout_height="wrap_content"
+                android:id="@+id/bombetext"/>
+            <Button
+                android:layout_width="@dimen/moinsplusbouton"
+                android:layout_height="wrap_content"
+                android:text="@string/moins"
+                android:id="@+id/bombemoins"/>
+            <Button
+                android:layout_width="@dimen/moinsplusbouton"
+                android:layout_height="wrap_content"
+                android:text="@string/plus"
+                android:id="@+id/bombeplus"/>
+        </TableRow>
+        <TextView android:layout_height="@dimen/separation"/>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hauteur"
+                android:textSize="@dimen/textmenu"/>
+            <EditText
+                android:layout_width="@dimen/configmenu"
+                android:layout_height="wrap_content"
+                android:id="@+id/hauteurtext"/>
+            <Button
+                android:layout_width="@dimen/moinsplusbouton"
+                android:layout_height="wrap_content"
+                android:text="@string/moins"
+                android:id="@+id/hauteurmoins"/>
+            <Button
+                android:layout_width="@dimen/moinsplusbouton"
+                android:layout_height="wrap_content"
+                android:text="@string/plus"
+                android:id="@+id/hauteurplus"/>
+        </TableRow>
+        <TextView android:layout_height="@dimen/separation"/>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/largeur"
+                android:textSize="@dimen/textmenu"/>
+            <EditText
+                android:layout_width="@dimen/configmenu"
+                android:layout_height="wrap_content"
+                android:id="@+id/largeurtext"/>
+            <Button
+                android:layout_width="@dimen/moinsplusbouton"
+                android:layout_height="wrap_content"
+                android:text="@string/moins"/>
+            <Button
+                android:layout_width="@dimen/moinsplusbouton"
+                android:layout_height="wrap_content"
+                android:text="@string/plus"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/commencerpartie"
+        android:text="@string/commencer"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

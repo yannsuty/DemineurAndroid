@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Demineur</string>
+    <string name="sauvegarder">Sauvegarder et quitter</string>
+    <string name="commencer">Commencer</string>
+    <string name="charger">Charger partie</string>
+    <string name="quitter">Quitter</string>
+    <string name="bombe">Nombre de bombes</string>
+    <string name="hauteur">Nombre de cases en hauteur</string>
+    <string name="largeur">Nombres de case en largeur</string>
+    <string name="sizetext">32dp</string>
+    <string name="plus">+</string>
+    <string name="moins">-</string>
+</resources>
